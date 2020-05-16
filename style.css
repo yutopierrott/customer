@@ -1,0 +1,198 @@
+#mainBanner {
+    margin: 0 auto 30px;
+    padding: 0;
+    width: 100%;
+    height: 170px;
+    line-height: 0;
+    border-bottom: 5px solid white;
+    background-image: url('image/p0020_m.png');
+}
+
+#mainBanner.inner {
+    position: relative;
+}
+
+.slogan {
+    padding-top: 30px;
+    padding-left: 40px;
+    right: auto;
+    left: 0;
+}
+
+h1 {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    max-width: 1236px;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: 700;
+    padding-top: 2.5rem;
+    color: white;
+}
+
+.maincontent {
+    width: 100%;
+    margin-bottom: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+}
+
+.kaisha {
+    width: 100%;
+}
+
+.kaisha th,
+.kaisha td {
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+.kaisha th {
+    font-weight: bold;
+    background-color: #fff0f5;
+    width: 250px;
+    height: 65px;
+}
+
+@media screen and (max-width: 767px) {
+    .kaisha,
+    .kaisha tr,
+    .kaisha td,
+    .kaisha th {
+        display: block;
+    }
+    .kaisha th {
+        width: auto;
+    }
+}
+
+.breadcrumbs {
+    border: solid 1px #ccc;
+    border-width: 1px 0;
+    width: 100%;
+}
+
+.breadcrumbs ul,
+.breadcrumbs li {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs a {
+    color: #9b4dca;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    color: #606c76;
+}
+
+.breadcrumbs ul {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+}
+
+.breadcrumbs li {
+    list-style: none;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 35px;
+    position: relative;
+}
+
+.breadcrumbs li:before,
+.breadcrumbs li:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.breadcrumbs li:before {
+    right: -40px;
+    border-left: 15px solid #ccc;
+}
+
+.breadcrumbs li:after {
+    right: -39px;
+    border-left: 15px solid #fff;
+}
+
+.active a {
+    color: #000;
+}
+
+#footer {
+    padding: 0;
+    width: 100%;
+    height: 120px;
+    line-height: 0;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-image: url('image/p0020_l.png');
+}
+
+.heading {
+    width: 100%;
+    position: relative;
+    padding-bottom: 1.925rem;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    right: auto;
+    left: 0;
+    overflow: hidden;
+}
+
+.heading:after,
+.heading:before {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    content: "";
+}
+
+.heading:before {
+    margin: 0 auto;
+    width: 1183px;
+    background: darkgray;
+}
+
+.heading:after {
+    width: 70px;
+    transform: skewX(-13deg);
+    background: #e6afcf;
+}
+
+.contents {
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 30px;
+}
+
+.logo p {
+    margin-top: 60px;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.number_list1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
